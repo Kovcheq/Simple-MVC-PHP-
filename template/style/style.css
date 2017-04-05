@@ -1,0 +1,40 @@
+        /*Main style*/
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-thumb {
+    height: 0;
+    background-color: #507299;
+}
+
+::selection {
+background: #cad6e1; /* Safari */
+}
+::-moz-selection {
+background: #cad6e1; /* Firefox */
+}
+
+body {
+    background: #f5f8fa;
+    position: relative;
+}
+
+header {
+    background: white;
+    box-shadow: 0 0 1px gray;
+}
+ 
+a {
+    color: black;
+} 
+
+a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
